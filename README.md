@@ -1,4 +1,4 @@
-spgemm
+SPGEMM
 ======
 
 ### spmm_mkl.cu 
