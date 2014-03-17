@@ -1,0 +1,76 @@
+%%MatrixMarket matrix coordinate pattern general
+%-------------------------------------------------------------------------------
+% UF Sparse Matrix Collection, Tim Davis
+% http://www.cise.ufl.edu/research/sparse/matrices/SNAP/p2p-Gnutella04
+% name: SNAP/p2p-Gnutella04
+% [Gnutella peer to peer network from August 4 2002]
+% id: 2308
+% date: 2002
+% author: M. Ripeanu and I. Foster and A. Iamnitchi
+% ed: J. Leskovec
+% fields: name title A id date author ed kind notes
+% kind: directed graph
+%-------------------------------------------------------------------------------
+% notes:
+% Networks from SNAP (Stanford Network Analysis Platform) Network Data Sets,    
+% Jure Leskovec http://snap.stanford.edu/data/index.html                        
+% email jure at cs.stanford.edu                                                 
+%                                                                               
+% Gnutella peer-to-peer network, August 4 2002                                  
+%                                                                               
+% Dataset information                                                           
+%                                                                               
+% A sequence of snapshots of the Gnutella peer-to-peer file sharing network from
+% August 2002. There are total of 9 snapshots of Gnutella network collected in  
+% August 2002. Nodes represent hosts in the Gnutella network topology and edges 
+% represent connections between the Gnutella hosts.                             
+%                                                                               
+% Dataset statistics                                                            
+% Nodes   8                                                                 
+% Edges   21                                                                
+% Nodes in largest WCC    10876 (1.000)                                         
+% Edges in largest WCC    39994 (1.000)                                         
+% Nodes in largest SCC    4317 (0.397)                                          
+% Edges in largest SCC    18742 (0.469)                                         
+% Average clustering coefficient  0.0080                                        
+% Number of triangles     934                                                   
+% Fraction of closed triangles    0.005402                                      
+% Diameter (longest shortest path)    9                                         
+% 90-percentile effective diameter    5.4                                       
+%                                                                               
+% Source (citation)                                                             
+%                                                                               
+% J. Leskovec, J. Kleinberg and C. Faloutsos. Graph Evolution: Densification and
+% Shrinking Diameters. ACM Transactions on Knowledge Discovery from Data (ACM   
+% TKDD), 1(1), 2007.                                                            
+%                                                                               
+% M. Ripeanu and I. Foster and A. Iamnitchi. Mapping the Gnutella Network:      
+% Properties of Large-Scale Peer-to-Peer Systems and Implications for System    
+% Design. IEEE Internet Computing Journal, 2002.                                
+%                                                                               
+% Files                                                                         
+% File    Description                                                           
+% p2p-Gnutella04.txt.gz   Directed Gnutella P2P network from August 4 2002      
+%-------------------------------------------------------------------------------
+8 8 21
+1 1
+1 2
+1 4
+2 2
+2 3
+2 5
+3 1
+3 3
+3 4
+4 2
+4 5
+4 6
+5 5
+6 5
+6 6
+6 7
+7 5
+7 7
+7 8
+8 7
+8 8
