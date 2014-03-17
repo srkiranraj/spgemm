@@ -1,0 +1,4 @@
+nvcc -DTHRUST_DEBUG -arch sm_21 -L -ccbin=gcc --ptxas-options=-v -lcudart  -L/home/user5/NVIDIA_CUDA-5.0/common/inc/ -L/home/user5/NVIDIA_CUDA-5.0/common/lib/linux/x86_64/ -I /home/user5/NVIDIA_CUDA-5.0/common/inc/ -L/opt/intel/mkl/lib/intel64/ -I /opt/intel/mkl/include/ -I /home/user5/NVDIA_CUDA-5.0/spmm/ -I ./ -I /home/user5/NVDIA_CUDA-5.0/mkl/ -Xcompiler -fopenmp -lcusparse -lcuda -lcudart -lgomp -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core -lpthread -Xptxas -O3 -o spmm_hybrid spmm_hybrid.cu
+
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/intel/mkl/lib/intel64
+export LD_LIBRARY_PATH
