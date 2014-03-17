@@ -1,0 +1,13 @@
+				      NODES		MKL				  CuSparse		CUSP			Hybrid
+
+amazon0312		400727	0.463906	 	1.57235			-------			0.77795
+p2p-Gnutella	10879		0.006965		0.01633			0.11991			0.01641
+
+
+
+
+
+
+
+
+Note :: All results in second(s).
